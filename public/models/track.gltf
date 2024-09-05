@@ -1,0 +1,100 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.8.19",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Street.003 - applied transform"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.016",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 41938,
+      "max": [
+        2.714266538619995,
+        0.7032898664474487,
+        3.5570733547210693
+      ],
+      "min": [
+        -7.225766181945801,
+        -0.06633052229881287,
+        -5.3602375984191895
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 41938,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 41938,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 42708,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 503256,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 503256,
+      "byteOffset": 503256
+    },
+    {
+      "buffer": 0,
+      "byteLength": 335504,
+      "byteOffset": 1006512
+    },
+    {
+      "buffer": 0,
+      "byteLength": 85416,
+      "byteOffset": 1342016
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "track_data.bin",
+      "byteLength": 1427432
+    }
+  ]
+}
